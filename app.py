@@ -19,7 +19,6 @@ def start():
 
                 if len(message) is not 0 and len(message) < 280:
                     if "[kers]" in message:
-                        message = message.replace("[kers]", "")
                         if len(message) is not 0:
                             if dms[i]['media'] is None:
                                 print("DM will be posted")
